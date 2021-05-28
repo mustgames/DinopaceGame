@@ -1,0 +1,78 @@
+@font-face {
+  src: url("../../Font/Atkinson-Hyperlegible-Regular-102a.woff2");
+  font-family: CustomFont;
+}
+* {
+  font-family: CustomFont;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: limegreen;
+  background-color: black;
+  text-decoration: none;
+}
+h1 {
+  font-size: 60px;
+  color: chartreuse;
+  background-color: rgb(212, 0, 255);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+footer {
+  background-color: purple;
+  padding: 30px;
+}
+
+ul {
+  display: flex;
+  padding-left: 700px;
+  margin-top: 60px;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+}
+nav a {
+  padding: 2px;
+  margin-left: 50px;
+  background-color: blueviolet;
+  color: chartreuse;
+}
+header {
+  background-color: purple;
+}
+
+footer p {
+  background-color: purple;
+}
+footer a {
+  background-color: purple;
+}
+
+table {
+  padding-bottom: 75px;
+}
+
+#Affärside {
+  padding-left: 700px;
+  padding-right: 700px;
+}
+
+#Rymdkrig a {
+  background-color: blueviolet;
+  color: chartreuse;
+}
+
+a:hover {
+  background-color: black;
+}
+h2 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  color: chartreuse;
+}
